@@ -141,6 +141,8 @@ UploadServer = {
       console.log("Custom upload url setup to: " + options.uploadUrl);
     }
 
+    if (opts.ssl != null) options.ssl = opts.ssl;
+
     RoutePolicy.declare(options.uploadUrl, 'network');
     WebApp.connectHandlers.use(options.uploadUrl, UploadServer.serve);
   },
