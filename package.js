@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'tomi:upload-server',
+  name: 'plopp:upload-server',
   summary: 'Upload server for Meteor. Allows to save and serve files from arbitrary directory',
-  version: '1.3.4_3',
-  git: 'https://github.com/tomitrescak/meteor-tomi-upload-server.git'
+  version: '1.3.5',
+  git: 'https://github.com/plopp/meteor-tomi-upload-server.git'
 });
 
 Package.onUse(function(api) {
